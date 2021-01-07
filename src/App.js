@@ -1,17 +1,15 @@
+import React from 'react';
+
+// styling
 import './App.scss';
 
-import Header from "./containers/Layout/Header/Header";
-import Footer from "./containers/Layout/Footer/Footer";
-import List from "./containers/List/List";
+// components 
+import Container from './container/Container';
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-        <Header />
-        <main className="content--main">
-          <List />
-        </main>
-        <Footer />
+    <div className="App cfb">
+      <Container/>
     </div>
   );
 }
