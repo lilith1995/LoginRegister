@@ -12,12 +12,12 @@ function SignIn(props) {
         <label>
             Your Email:
           <br/>
-          <Input value={password} onChange={onChange} type ="email" placeholder="Enter your email..." label="" id="email"/>
+          <Input value={props.password} onChange={props.onChange} type ="email" placeholder="Enter your email..." label="" id="email"/>
         </label>
         <label>
         Your Password:
           <br/>
-          <Input value={password} onChange={onChange} type="password" placeholder="Enter your password..." label="" id="password"/>
+          <Input value={props.password} onChange={props.onChange} type="password" placeholder="Enter your password..." label="" id="password"/>
         </label>
         <button>
           Sign In!
