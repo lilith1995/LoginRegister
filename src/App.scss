@@ -1,5 +1,5 @@
 .App{
-    background-color: #b0b8cc;
+    background-color: #b5c7f5;
     height: 100vh;
 }
 
@@ -10,58 +10,8 @@
     align-items: center;
 }
 
-.Container{
-    position: fixed; 
-    background-color: #b5d4bb71;
-    width: 50%;
-    height: 70%;
-
-    box-shadow: 1px 2px 2px #b9daee00;
-    border: 0.1em solid #592941;
-    border-radius: 0.5em;
-    color: #166886; 
-    padding: 2em;
-    font-style:italic;
-}
 
 
-.form-comp{
-    flex-direction: column;
-}
 
-.sign-up-form{
-    width: 50%;
-    flex-direction: column;
-}
 
-.sign-up-form > label{
-    padding: 1em;
-    width: 100%;
-    font-size: 20px;
-}
-
-.sign-up-form > label > input{
-    width: 100%
-}
-
-button {
-    padding: 1em;
-
-    border: 1px solid #EEFCF8;
-    border-radius: 5em;
-    
-    background-color: #035E7B;
-
-    color: #EEFCF8;
-    font-weight: bold;
-    text-decoration: none;
-}
-
-button:focus {
-    outline: 0;
-}
-
-button:hover{
-    opacity: 0.9;
-}
 

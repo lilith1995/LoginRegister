@@ -1,15 +1,13 @@
 import React from 'react';
 
-// styling
 import './App.scss';
 
-// components 
-import Container from './container/Container';
+import Login from './container/Login/Login';
 
 const App = () => {
   return (
     <div className="App cfb">
-      <Container/>
+      <Login />
     </div>
   );
 }
