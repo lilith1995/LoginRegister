@@ -3,6 +3,7 @@ import React, {useState} from 'react';
 
 // styling
 import '../App.scss';
+import Input from '../components/Input/Input';
 
 // components
 import SignIn from '../components/SignIn';
@@ -23,7 +24,7 @@ const Container = () => {
   return (
     <div className="Container cfb">
         <h2>Welcome Back</h2>
-        <SignIn value={password} onChange={onChange}/>
+        <SignIn />
       </div>
     
   );
