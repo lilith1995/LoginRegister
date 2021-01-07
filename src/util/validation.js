@@ -1,8 +1,7 @@
 export const validation = val =>{
-    console.log(val)
     if(val.length <=6){
         return {
-            errorText:'fill in',
+            errorText:'password shoud contain 6 charachters',
             isValid: true
         }
     }
