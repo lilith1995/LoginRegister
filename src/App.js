@@ -1,8 +1,8 @@
-import React from 'react';
+import React from "react";
 
-import './App.scss';
+import "./App.scss";
 
-import Login from './container/Login/Login';
+import Login from "./container/Login/Login";
 
 const App = () => {
   return (
@@ -10,6 +10,6 @@ const App = () => {
       <Login />
     </div>
   );
-}
+};
 
 export default App;

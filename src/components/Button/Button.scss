@@ -1,21 +1,20 @@
 button {
-        width: 30%;
-        padding: 1em;
-        border: 1px solid #EEFCF8;
-        border-radius: 3em;
-        
-        background-color: #035E7B;
+    width: 30%;
+    padding: 1em;
+    border: 1px solid #EEFCF8;
+    border-radius: 3em;
 
-        color: #EEFCF8;
-        font-weight: bold;
-        text-decoration: none;
+    background-color: #035E7B;
+
+    color: #EEFCF8;
+    font-weight: bold;
+    text-decoration: none;
 
     button:focus {
         outline: 0;
     }
-    
-    button:hover{
+
+    button:hover {
         opacity: 0.9;
     }
 }
-

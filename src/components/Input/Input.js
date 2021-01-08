@@ -1,10 +1,8 @@
 import React from "react";
-import "./Input.scss"
+import "./Input.scss";
 
-function Input(props){
-        return(
-            <input {...props}/>
-        )
-    }
+function Input(props) {
+  return <input {...props} />;
+}
 
 export default Input;
