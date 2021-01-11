@@ -1,8 +1,8 @@
 import React, {useState} from 'react';
 
-import SignIn from '../container/Signin/SignIn';
-import SignUp from '../container/Signup/SignUp';
-import '../App.scss';
+import SignIn from "../Signin/SignIn";
+import SignUp from '../Signup/SignUp';
+import "../../App.scss";
 
 const Authentication = () => {
   const [welcome, setWelcome] = useState(false)

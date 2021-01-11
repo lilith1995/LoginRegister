@@ -3,7 +3,7 @@ import React, {useState} from "react";
 import Button from "../../components/Button/Button";
 import Input from "../../components/Input/Input";
 import { ValidateEmail, ValidatePassword } from "../../util/validation";
-import '../../App.scss';
+import "../../App.scss";
 
 const SignIn = () => {
   const [password, setPassword] = useState("");
@@ -49,9 +49,8 @@ const SignIn = () => {
           <br />
           <Input value={password} onChange={handlePasswordChange} />
         </label>
-        <br />
-        <p>{errorText}</p>
         <Button title="Sign in!" onClick={handleSubmit} />
+        <p>{errorText}</p>
       </form>
     </div>
   );
