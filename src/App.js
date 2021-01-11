@@ -1,13 +1,22 @@
 import React from "react";
 
-import "./App.scss";
+import Header from "./container/Header/Header";
+import Layout from "./components/Layout/Layout";
+import Authentication from "./Authentication/Authentication";
+import Footer from "./container/Footer/Footer";
 
-import Login from "./container/Login/Login";
+import "./App.scss";
 
 const App = () => {
   return (
     <div className="App cfb">
-      <Login />
+      <Header />
+      <Layout>
+        <main className="app-main-content">
+          <Authentication />
+        </main>
+        <Footer />
+      </Layout>
     </div>
   );
 };
