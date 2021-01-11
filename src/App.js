@@ -2,7 +2,7 @@ import React from "react";
 
 import Header from "./container/Header/Header";
 import Layout from "./components/Layout/Layout";
-import Authentication from "./Authentication/Authentication";
+import Authentication from "./container/Authentication/Authentication";
 import Footer from "./container/Footer/Footer";
 
 import "./App.scss";
@@ -13,10 +13,12 @@ const App = () => {
       <Header />
       <Layout>
         <main className="app-main-content">
-          <Authentication />
+          <span>
+            <Authentication />
+          </span>
         </main>
-        <Footer />
       </Layout>
+      <Footer />
     </div>
   );
 };

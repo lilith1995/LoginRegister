@@ -1,6 +1,10 @@
 .App {
-    background-color: #e2eefd00;
+    background-color: #cccdd3;
     height: 100vh;
+    
+}
+.app-main-content {
+    flex: 1;
 }
 
 .cfb {
@@ -9,7 +13,6 @@
     justify-content: center;
     align-items: center;
 }
-
 .Container {
     position: fixed;
 
@@ -20,58 +23,58 @@
     border: 0.1em solid #592941;
     border-radius: 0.5em;
 
-    background-image: url("./assets/images.jpg");
+    background-image:url("./assets/images.jpg") ;
 
-}
+    .banner-side {
+        position: absolute;
+        z-index: 2;
+        right: 65%;
 
-.banner-side {
-    position: absolute;
-    z-index: 2;
-    right: 65%;
+        border: 0.1em solid #592941;
+        border-radius: 0.5em;
 
-    border: 0.1em solid #32096F;
-    border-radius: 0.5em;
+        width: 35%;
+        height: 100%;
 
-    width: 35%;
-    height: 100%;
+        flex-direction: column;
 
-    flex-direction: column;
+        background-color: #5C58B6;
+        opacity: 1;
 
-    background-color: #32096F;
-    opacity: 1;
+        color: #EEFCF8;
+        text-align: center;
 
-    color: #EEFCF8;
-    text-align: center;
+        transition: 2s;
+    }
 
-    transition: 2s;
-}
+   
+    .form-side {
+        position: absolute;
+        z-index: 1;
+        right: 0;
 
-.form-side {
-    position: absolute;
-    z-index: 2;
-    right: 0;
+        border: 0.1em solid #592941;
+        border-radius: 0.5em;
 
-    border: 0.1em solid #592941;
-    border-radius: 0.5em;
+        width: 65%;
+        height: 100%;
 
-    width: 65%;
-    height: 100%;
+        background-color: #EEFCF8;
+        opacity: 1;
 
-    background-color: #7085be;
-    opacity: 1;
+        font-weight: bold;
+        color: #035E7B;
 
-    font-weight: bold;
-    color: #040225;
+        transition: 2s;
+    }
 
-    transition: 2s;
-}
+    .send-right {
+        right: 0;
+    }
 
-.send-right {
-    right: 0;
-}
-
-.send-left {
-    right: 35%;
+    .send-left {
+        right: 35%;
+    }
 }
 
 
@@ -92,16 +95,15 @@
 .sign-up-form>label>input {
     width: 100%
 }
-
 button {
     padding: 1em;
 
     border: 1px solid #EEFCF8;
     border-radius: 5em;
+    
+    background-color: #EEFCF8;
 
-    background-color: #f602e670;
-
-    color: #EEFCF8;
+    color: #01042e;
     font-weight: bold;
     text-decoration: none;
 }
@@ -110,6 +112,6 @@ button:focus {
     outline: 0;
 }
 
-button:hover {
+button:hover{
     opacity: 0.9;
 }

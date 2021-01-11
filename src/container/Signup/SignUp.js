@@ -54,9 +54,8 @@ const SignUp = () => {
           <br />
           <Input value={password} onChange={handlePasswordChange} />
         </label>
-        <br />
-        <p>{errorText}</p>
         <Button title="Sign in!" onClick={handleSubmit} />
+        <p>{errorText}</p>
       </form>
     </div>
   );
