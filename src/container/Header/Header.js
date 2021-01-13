@@ -5,6 +5,15 @@ import "./Header.scss";
 import logo from "../../assets/Logo/logo.jpg";
 
 class Header extends Component {
+    constructor() {
+        super();
+        this.onRedirect = this.onRedirect.bind(this);
+    }
+
+    onRedirect(path) {
+        this.props.onRedirect(path);
+    }
+
     render() {
         return (
             <div className="header">
@@ -20,6 +29,9 @@ class Header extends Component {
                             <li>Prices</li>
                         </ul>
                     </div>
+                    <button className="button-join" onClick={() => this.onRedirect("authentication")}>
+                            Join us
+                        </button>
                 </div>
             </div>
         );
